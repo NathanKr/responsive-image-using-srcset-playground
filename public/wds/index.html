@@ -6,14 +6,15 @@
     <title>Document</title>
   </head>
   <body>
+    <h2>Change the viewport width and see the displayed image file changes accordingly </h2>
     <img
       style="width: 100%"
       src="https://placehold.co/1600x400/png"
       alt="responsive image use case 1"
       srcset="
-        https://placehold.co/1600x400/png 1600w,
-        https://placehold.co/800x400/png   800w,
-        https://placehold.co/600x400/png   600w
+        pic-1600w.png 1600w,
+        pic-800w.png  800w,
+        pic-600w.png   600w
       "
     />
     <output></output>
@@ -23,7 +24,7 @@
     resizeHandler();
     function resizeHandler() {
       elemOutput = document.querySelector("output");
-      elemOutput.innerText = `Window Width : ${window.innerWidth} , Device Pixel Ratio : ${window.devicePixelRatio}`;
+      elemOutput.innerText = `Window Width : ${window.innerWidth} [pixels], Device Pixel Ratio : ${window.devicePixelRatio}`;
     }
   </script>
 </html>

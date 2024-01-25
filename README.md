@@ -2,6 +2,7 @@
 This repository is part of my blog post <a href='https://nathankrasney.com/posts/srcset-and-responsive-images'>Srcset Img Attribute and Responsive Images"</a>
 
 <h2>Usage</h2>
+<h3>mdn</h3>
 Change the width of the brwoser window and play with these self explainatory files. Notice that there are three pictures on the html page
 <ul>
 <li><h3>not-responsive.html</h3> the persons on the second image keep getting smaller as the width get smaller. For second image elva-800w.jpg is used</li>
