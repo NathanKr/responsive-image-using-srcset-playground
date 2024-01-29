@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>
+      Change the viewport width and see the displayed image file changes
+      accordingly
+    </h2>
+    <img
+      src="pic-1500w.png"
+      alt="responsive image use case 3 - use density switching (no sizes)"
+      srcset="  pic-1500w.png 3x, 
+                pic-1000w.png 2x, 
+                pic-500w.png  1x"
+    />
+    <br />
+    <output></output>
+  </body>
+  <script src="utils.js"></script>
+</html>

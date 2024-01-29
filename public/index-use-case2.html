@@ -8,15 +8,17 @@
   <body>
     <h2>Change the viewport width and see the displayed image file changes accordingly </h2>
     <img
-      style="width: 100vw"
+      style="width: 50vw"
       src="pic-1600w.png"
-      alt="responsive image use case 1 - resolution switching without sizes"
+      alt="responsive image use case 2 - resolution switching with sizes"
+      sizes="50vw"
       srcset="
         pic-1600w.png 1600w,
         pic-800w.png  800w,
         pic-600w.png  600w
       "
     />
+    <br/>
     <output></output>
   </body>
   <script src="utils.js"></script>
